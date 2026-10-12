@@ -21,6 +21,7 @@ pipeline {
                 echo 'Testing project files'
                 sh 'test -f index.html'
                 echo 'index.html exists'
+             echo 'Day 3 automatic trigger test'
             }
         }
     }
